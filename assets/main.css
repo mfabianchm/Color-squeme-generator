@@ -1,0 +1,45 @@
+body {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   font-family: 'Inter', sans-serif;
+}
+
+.main-container {
+    width: 550px;
+    height: 550px;
+    border: 1px solid black;
+}
+
+.options-container {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.options-container input {
+    width: 51px;
+    height: 34px;
+    border: 0.5px solid #313131;
+    background: #F55A5A;
+}
+
+.options-container select {
+    width: 312px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.options-container button {
+    width: 123px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
