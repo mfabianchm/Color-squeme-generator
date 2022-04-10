@@ -1,14 +1,23 @@
 body {
    box-sizing: border-box;
    display: flex;
+   flex-direction: column;
+   align-items: center;
    justify-content: center;
    font-family: 'Inter', sans-serif;
+   background: #242E42;
+}
+
+.name-app {
+    color: #FFFFFF;
 }
 
 .main-container {
     width: 550px;
     height: 550px;
     border: 1px solid black;
+    background-color: #FFFFFF;
+    margin-top: 30px;
 }
 
 .options-container {
@@ -43,8 +52,9 @@ body {
     border-radius: 4px;
 }
 
-.options-container button:hover, .options-container select:hover {
+.options-container button:hover, .options-container select:hover, .options-container input:hover {
     cursor: pointer;
+    border: 1px solid red;
 }
 
 .scheme-colors {
